@@ -1,6 +1,6 @@
 # React Simple Counter
 
-This project is a simple counter application built with React. It includes a card that displays a count, which can be incremented, decremented, or reset using keyboard events.
+This project is a simple counter application built with React with the help of Vite. It includes a card that displays a count, which can be incremented, decremented, or reset using keyboard events.
 
 ## Features
 

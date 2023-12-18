@@ -5,8 +5,17 @@ export default function ResetButton({ setCount }) {
     setCount(0);
   };
 
+  const handleMouseUp = (event) => {
+    event.currentTarget.blur();
+  };
+
   return (
-    <button onMouseDown={handleMouseDown} className="reset-btn">
+    <button
+      onMouseDown={handleMouseDown}
+      onMouseUp={handleMouseUp}
+      onMouseLeave={handleMouseUp}
+      className="reset-btn"
+    >
       <ResetIcon className="reset-btn-icon" />
     </button>
   );

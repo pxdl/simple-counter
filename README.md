@@ -20,8 +20,8 @@ This project is a simple counter application built with React. It includes a car
 
 ## Installation
 
-1. Clone this repository: `git clone https://github.com/pxdl/react-simple-counter.git`
-2. Navigate into the project directory: `cd react-simple-counter`
+1. Clone this repository: `git clone https://github.com/pxdl/simple-counter.git`
+2. Navigate into the project directory: `cd simple-counter`
 3. Install the dependencies: `npm install`
 4. Start the application: `npm start`
 
